@@ -1,0 +1,280 @@
+header.ejercicio1 {
+  background-color: rgb(41, 39, 39);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+header ul.ejercicio1 {
+  background-color: grey;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+li.ejercicio1:hover {
+  background-color: rgb(66, 68, 66);
+}
+
+a.ejercicio1:visited,
+a.ejercicio1 {
+  color: rgb(68, 205, 194);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+header.ejercicio2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(31, 30, 30);
+  flex-wrap: wrap;
+}
+
+ul.ejercicio2 {
+  background-color: grey;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  justify-content: center;
+}
+
+li.ejercicio2:hover {
+  background-color: rgb(204, 198, 198);
+}
+
+a.ejercicio2,
+a:visited {
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(90, 67, 67);
+}
+
+header.ejercicio3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(31, 30, 30);
+  flex-wrap: wrap;
+}
+
+ul.ejercicio3 {
+  background-color: grey;
+  display: flex;
+  list-style: none;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  justify-content: space-between;
+}
+
+li.ejercicio3:hover {
+  background-color: rgb(52, 51, 117);
+}
+
+a.ejercicio3,
+a:visited {
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(40, 154, 91);
+}
+
+header.ejercicio4 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  width: 750px;
+  height: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 30px;
+  background-color: rgb(31, 30, 30);
+  flex-wrap: wrap;
+}
+
+ul.ejercicio4 {
+  background-color: grey;
+  flex-direction: column;
+  list-style: none;
+  height: auto;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  justify-content: space-between;
+}
+
+li.ejercicio4:hover {
+  background-color: rgb(143, 28, 47);
+}
+
+a.ejercicio4,
+a:visited {
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(221, 212, 44);
+}
+
+header.ejercicio5 h1 {
+  background-color: rgb(31, 30, 30);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+section.imgContainer5 {
+  display: flex;
+  background-color: grey;
+}
+
+img {
+  width: 100px;
+  height: 150px;
+  border: 1px dashed black;
+}
+
+header.ejercicio6 h1 {
+  background-color: rgb(31, 30, 30);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+section.imgContainer6 {
+  display: flex;
+  background-color: grey;
+}
+
+img.ejercicio6 {
+  width: 100px;
+  height: 150px;
+  border: 1px dashed black;
+  margin: 10px;
+}
+
+header.ejercicio7 {
+  background-color: black;
+  width: 800px;
+  height: 80px;
+  text-align: right;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  padding-right: 3px;
+  box-sizing: border-box;
+}
+
+section.travelContainer {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article.travel1 {
+  width: auto;
+  height: 400px;
+  background-color: rgb(56, 179, 172);
+}
+
+article.travel2 {
+  width: auto;
+  height: 400px;
+  background-color: rgb(55, 169, 119);
+}
+
+article.travel3 {
+  width: auto;
+  height: 400px;
+  background-color: rgb(133, 86, 171);
+}
+
+article.travel1 .travel__img1 {
+  width: 255px;
+  height: 40%;
+  margin: 5px;
+  padding: 0;
+  border: 0;
+}
+
+article.travel2 .travel__img2 {
+  width: 255px;
+  height: 40%;
+  margin: 5px;
+  padding: 0;
+  border: 0;
+}
+
+article.travel3 .travel__img3 {
+  width: 255px;
+  height: 40%;
+  margin: 5px;
+  padding: 0;
+  border: 0;
+}
+
+h2.travel__title1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+
+h2.travel__title2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+
+h2.travel__title3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+
+p.travel__description1 {
+  padding: 3px;
+  flex-wrap: wrap;
+}
+
+p.travel__description2 {
+  padding: 3px;
+}
+
+p.travel__description3 {
+  padding: 3px;
+}
